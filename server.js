@@ -48,7 +48,7 @@ app.use(
 
 app.use(
   cors({
-    origin: [CLIENT_URL, "http://localhost:3000"],
+    origin: [CLIENT_URL, "http://localhost:3000", "https://indiapodcasts.vercel.app/", "https://indiapodcasts-white-g6fi96u2w.vercel.app/"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
